@@ -2,7 +2,10 @@
 
 from typing import Any
 
-from homeassistant.backports.enum import StrEnum
+#https://developers.home-assistant.io/blog/2024/04/08/deprecated-backports-and-typing-aliases/ 
+#from homeassistant.backports.enum import StrEnum
+from enum import StrEnum
+
 from homeassistant.components.media_player import MediaClass, MediaType
 
 DOMAIN = "mediabrowser"
